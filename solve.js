@@ -8,6 +8,7 @@ const fn = lib["readCsv"] ?? (lib.default != null && typeof lib.default["readCsv
 if (typeof fn !== 'function') throw new Error("csv-reader 1.0.0 exports no function readCsv from index.js");
 
 /** csv-reader 1.0.0's answer for one case's input. */
+// run: process csv-reader input and return expected answer shape
 export function run(input) {
   return fn(input);
 }
