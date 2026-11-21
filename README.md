@@ -28,3 +28,7 @@ node cli/makefun.mjs grade-local --kit . --bot <repository> --driver docker
 ```
 
 This repo is structured so it can be submitted as a make.fun GitHub entry.
+
+## Status
+
+Baseline-compatible implementation packaged for the 2026-11-21 run.
